@@ -1,0 +1,72 @@
+#Client{
+    background-color:#ecf0f1;
+}
+#Label_message.error{
+    font:16px "黑体";
+    color: red;
+    qproperty-alignment:AlignCenter;
+}
+#Label_message.success{
+    font:16px "黑体";
+    color: green;
+    qproperty-alignment:AlignCenter;
+}
+
+#label{
+    font:54px "黑体";
+    font-weight:bold;
+    border-radius: 10px;
+    border: 1.5px solid #565656;
+    padding:0px;
+}
+#Label_Account{
+    font:20px "黑体";
+    border-radius: 4px;
+    border: 1px solid #565656;
+    padding:0px;
+}
+#Label_Password{
+    font:20px "黑体";
+    border-radius: 4px;
+    border: 1px solid #565656;
+    padding:0px;
+}
+#Input_Account{
+    background-color: #f0f0f0;
+    border: 1px solid #8f8f91;
+    border-radius: 4px;
+    color: #333;
+    padding: 5px;
+    selection-background-color: #add8e6;
+    selection-color: #ffffff;
+    font: 10pt "Arial";
+    padding:2px;
+}
+#Input_Account::hover{
+    border: 1.5px solid #565656;
+    background-color: #ffffff;
+}
+#Input_Account::focus{
+    background-color: #ffffff;
+    border: 1.5px solid #565656;
+}
+#Input_Password{
+    background-color: #f0f0f0;
+    border: 1px solid #8f8f91;
+    border-radius: 4px;
+    color: #333;
+    padding: 5px;
+    selection-background-color: #add8e6;
+    selection-color: #ffffff;
+    font: 10pt "Arial";
+    padding:2px;
+    }
+#Input_Password::hover{
+    border: 1.5px solid #565656;
+    background-color: #ffffff;
+}
+#Input_Password::focus{
+    background-color: #ffffff;
+    border: 1.5px solid #565656;
+}
+

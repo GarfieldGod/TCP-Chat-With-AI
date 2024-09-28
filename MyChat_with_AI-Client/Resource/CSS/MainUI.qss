@@ -1,0 +1,162 @@
+#MainUI{
+    background-color:#ecf0f1;
+}
+#Part_Info{
+    border:1px solid black;
+}
+#Part_AIUser{
+    border:1px solid black;
+}
+#Part_Chat{
+    border:1px solid black;
+}
+
+
+
+
+QLabel[ID="Label_Status_Online"]{
+    color:green;
+}
+QLabel[ID="Label_Status_Offline"]{
+    color:red;
+}
+#label_avator{
+    border:2px solid black;
+}
+QScrollBar:vertical {
+    width: 2px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+QScrollBar::handle:vertical {
+    background-color: #888;
+    border-radius: 5px;
+    min-height: 30px;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+    background: none;
+}
+
+QListWidget::item {
+    background-color: #ffffff;
+}
+QListWidget::item:hover {
+    background-color: #7cb9e8;
+}
+QListWidget::item:!enabled {
+    background-color: #ffffff;
+}
+QListWidget::item:!selected {
+    outline: none;
+}
+QListWidget::item:selected {
+        background-color: #7cb9e8;
+outline: none;
+}
+
+#label_status[status="offline"]{
+}
+#label_status[status="online"]{
+}
+
+
+QWidget[ID="Chatbox_Chatbox"]{
+
+}
+QWidget[ID="Chatbox_box"]{
+
+}
+QWidget[ID="Chatbox_left"]{
+
+}
+QWidget[ID="Chatbox_right"]{
+
+}
+QWidget[ID="Chatbox_mid"]{
+
+}
+QLabel[ID="Chatbox_Speaker"]{
+    border: 1px solid black;padding:5px
+}
+QLabel[ID="Chatbox_Time_left"]{
+
+}
+QLabel[ID="Chatbox_Time_right"]{
+
+}
+QLabel[ID="Chatbox_Content_left"]{
+
+}
+QLabel[ID="Chatbox_Content_right"]{
+
+}
+
+QWidget[ID="MessageBox"]{
+
+}
+QLabel[ID="MessageBox_Content"]{
+    color: gray;
+}
+QListWidget#list_friends::item{
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    padding-bottom: 5px;
+    margin-bottom:1px;
+}
+QLabel[ID="FriendBox_FriendName_offline"]{
+    color: gray;
+}
+QLabel[ID="FriendBox_FriendStatus_offline"]{
+    border-width: 0px;
+    border-left-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    padding-bottom: 5px;
+
+    color: gray;
+}
+QLabel[ID="FriendBox_LastTimeOnline_offline"]{
+    border-width: 0px;
+    border-left-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    padding-bottom: 5px;
+
+    color: gray;
+}
+QLabel[ID="FriendBox_FriendName_online"]{
+    color: black;font-weight: bold;
+}
+QLabel[ID="FriendBox_FriendStatus_online"]{
+    border-width: 0px;
+    border-left-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    padding-bottom: 5px;
+
+    color: green;font-weight: bold;
+}
+QLabel[ID="FriendBox_LastTimeOnline_online"]{
+    border-width: 0px;
+    border-left-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    padding-bottom: 5px;
+
+    color: black;font-weight: bold;
+}
+QLabel[ID="FriendBox_NewMessage_new"]{
+    background-color:red;
+    border-radius:10px;
+    color:white;
+}
+QLabel[ID="FriendBox_NewMessage_none"]{
+    background-color:none;
+}

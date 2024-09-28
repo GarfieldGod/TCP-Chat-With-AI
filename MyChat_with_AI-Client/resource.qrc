@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/Project">
+        <file>Resource/CSS/Client.qss</file>
+        <file>Resource/CSS/MainUI.qss</file>
+        <file>Resource/GIF/Loading.gif</file>
+        <file>Resource/PICTURE/Avator.jpg</file>
+        <file>Resource/PICTURE/ico.png</file>
+    </qresource>
+</RCC>
